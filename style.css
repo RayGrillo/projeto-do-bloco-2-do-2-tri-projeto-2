@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@600&display=swap');
+
+:root {
+    --cor-fundo: #1C3324;
+    --cor-principal: #5A665E;
+    --cor-secundaria: #2A3C31;
+    --cor-destaque: #60E691;
+    --cor-texto: #D7F9FF;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, .caixa-perguntas, .caixa-resultado{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    margin: 10px 0px 0 0px;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+
+.caixa-resultado{
+    display: none;
+}
+
+.caixa-resultado.mostrar{
+    display: block;
+}
+
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+}
