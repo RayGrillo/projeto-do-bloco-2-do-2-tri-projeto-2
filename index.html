@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>ABCD</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Ambiente</title>
+    </head>
 
-<body>
-    <div class="caixa-principal">
-        <h1>ABCD</h1>
-        <div class="tela-inicial">
-            <p>AAA
-            </p>
-            <button class="iniciar-btn">Iniciar</button>
+    <body>
+        <div class="caixa-principal">
+            <h1>Ambiente</h1>
+            <div class="tela-inicial">
+                <p>Algumas questões sobre o Ambiente.</p>
+                <button class="iniciar-btn">Iniciar</button>
+            </div>
+            <div class="caixa-perguntas"></div>
+            <div class="caixa-alternativas"></div>
+            <div class="caixa-resultado">
+                <p class="texto-resultado"></p>
+                <button class="novamente-btn">Jogar novamente</button>
+            </div>
         </div>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
-            <button class="novamente-btn">Jogar novamente</button>
-        </div>
-    </div>
-    <script type="module" src="js/aleatorio.js"></script>
-    <script type="module" src="js/perguntas.js"></script>
-    <script type="module" src="js/script.js"></script>
-</body>
+        <script type="module" src="js/aleatorio.js"></script>
+        <script type="module" src="js/perguntas.js"></script>
+        <script type="module" src="js/script.js"></script>
+    </body>
 
 </html>

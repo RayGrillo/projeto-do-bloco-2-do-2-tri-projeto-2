@@ -1,173 +1,44 @@
 export const perguntas = [
     {
-        enunciado: "BBB",
+        enunciado: "Sua cidade está querendo reduzir o consumo de plástico, o que você vai fazer?",
         alternativas: [
             {
-                texto: "CCC",
+                texto: "Não darei a mínima.",
                 afirmacao: [
-                    "CCC",
-                    "ccc"
+                    "Ficou cheia de plástico",
+                    "Cheia de plástico ficou"
                 ],
                 proxima: 1,
             },
             {
-                texto: "DDD",
+                texto: "Isso é maravilhoso!",
                 afirmacao: [
-                    "DDD",
-                    "ddd"
+                    "Ficou mais bonita com menos plásticos",
+                    "Mais bonita com menos plástico"
                 ],
-                proxima: 2,
+                proxima: 1,
             },
         ]
     },
     {
-        enunciado: "EEE",
+        enunciado: "Sua cidade descidiu está querendo plantar árvores.",
         alternativas: [
             {
-                texto: "FFF",
+                texto: "Não vou ajudar e nem apoiar.",
                 afirmacao: [
-                    "FFF",
-                    "fff",
-                    "FfF"
+                    "e ficou cinza que nem São Paulo.",
+                    "e ficou parecendo um pulmão de fumante.",
+                    "e ficou cheia de fumaça."
                 ],
-                proxima: 3,
             },
             {
-                texto: "GGG",
+                texto: "Vou ajudar e apoiar!",
                 afirmacao: [
-                    "GGG",
-                    "ggg",
-                    "GgG"
+                    "e o ar da sua cidade melhorou.",
+                    "e o ar da sua cidade está mais limpo.",
+                    "e você está respirando um ar mais limpo."
                 ],
-                proxima: 4,
             },
         ]
     },
-    {
-        enunciado: "HHH",
-        alternativas: [
-            {
-                texto: "III",
-                afirmacao: [
-                    "III",
-                    "iii",
-                    "IiI"
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "JJJ",
-                afirmacao: [
-                    "JJJ",
-                    "jjj",
-                    "JjJ"
-                ],
-                proxima: 4,
-            },
-        ]
-    },
-    {
-        enunciado: "KKK",
-        alternativas: [
-            {
-                texto: "LLL",
-                afirmacao: [
-                    "LLL",
-                    "lll"
-                ],
-                proxima: 5,
-            },
-            {
-                texto: "MMM",
-                afirmacao: [
-                    "MMM",
-                    "mmm"
-                ],
-                proxima: 6,
-            },
-        ]
-    },
-    {
-        enunciado: "NNN",
-        alternativas: [
-            {
-                texto: "OOO",
-                afirmacao: [
-                    "OOO",
-                    "ooo"
-                ],
-                proxima: 5,
-            },
-            {
-                texto: "PPP",
-                afirmacao: [
-                    "PPP",
-                    "ppp"
-                ],
-                proxima: 6,
-            },
-        ]
-    },
-    {
-        enunciado: "QQQ",
-        alternativas: [
-            {
-                texto: "RRR",
-                afirmacao: [
-                    "RRR",
-                    "rrr"
-                ],
-                proxima: 7,
-            },
-            {
-                texto: "SSS",
-                afirmacao: [
-                    "SSS",
-                    "sss"
-                ],
-                proxima: 7,
-            },
-        ]
-    },
-    {
-        enunciado: "TTT",
-        alternativas: [
-            {
-                texto: "UUU",
-                afirmacao: [
-                    "UUU",
-                    "uuu"
-                ],
-                proxima: 7,
-            },
-            {
-                texto: "VVV",
-                afirmacao: [
-                    "VVV",
-                    "vvv"
-                ],
-                proxima: 7,
-            },
-        ]
-    },
-    {
-        enunciado: "WWW",
-        alternativas: [
-            {
-                texto: "YYY",
-                afirmacao: [
-                    "YYY",
-                    "yyy"
-                ],
-            },
-            {
-                texto: "ZZZ",
-                afirmacao: [
-                    "ZZZ",
-                    "zzz",
-                    "ZzZ"
-                ],
-            },
-        ]
-    }
 ];
